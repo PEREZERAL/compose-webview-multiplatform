@@ -75,6 +75,11 @@ class WebSettings {
     var allowUniversalAccessFromFileURLs: Boolean = false
 
     /**
+     * Allow read the event from a.download & download content 
+     */
+    var  allowDownloadFilefromURL: Boolean = false
+
+    /**
      * Log severity for the WebView.
      * Default is [KLogSeverity.Info]
      */
